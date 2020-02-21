@@ -22,3 +22,16 @@ F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.v
 F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
 F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
 F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.Compression.dll
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.Compression.FileSystem.dll
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Runtime.dll
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.dll
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Text.Encoding.dll
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Threading.Tasks.dll
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.Compression.xml
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.Compression.FileSystem.xml
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Runtime.xml
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.xml
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Text.Encoding.xml
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Threading.Tasks.xml
+F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
