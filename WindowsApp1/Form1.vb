@@ -15,13 +15,27 @@ Public Class Form1
             Directory.CreateDirectory(gPath + "\" + gVerWork)
         End If
         If File.Exists(gPath + "\m2.exe") Then
-            File.Move(gPath + "\m2.exe", gPath + "\" + gVerWork + "\m2.exe")
+            If File.Exists(gPath + "\" + gVerWork + "\m2.exe") Then
+            Else
+                File.Move(gPath + "\m2.exe", gPath + "\" + gVerWork + "\m2.exe")
+            End If
+
         End If
 
         If File.Exists(gPath + "\updw.txt") Then
-            File.Move(gPath + "\updw.txt", gPath + "\" + gVerWork + "\updw.txt")
-        End If
+            If File.Exists(gPath + "\" + gVerWork + "\updw.txt") Then
+            Else
+                File.Move(gPath + "\updw.txt", gPath + "\" + gVerWork + "\updw.txt")
+            End If
 
+        End If
+        If File.Exists(gPath + "\upd.txt") Then
+
+            If File.Exists(gPath + "\" + gVerWork + "\updw.txt") Then
+                File.Delete(gPath + "\" + gVerWork + "\updw.txt")
+            End If
+            File.Copy(gPath + "\upd.txt", gPath + "\" + gVerWork + "\updw.txt")
+        End If
 
 
 
@@ -47,21 +61,41 @@ Public Class Form1
 
 
         CLIENT.DownloadFile(
-          "ftp://62.103.69.140:50001/mercfcon.exe", gPath + "\m2.exe")
+          "ftp://62.103.69.140:50001/mercfcon.exe", gPath + "\merc.zip")
         MsgBox("ολοκληρώθηκε")
         th1.Abort()
+        UnZip()
+
         ProgressBar1.Value = ProgressBar1.Maximum
 
 
     End Sub
 
 
+    'Declare the shell object
+    Dim shObj As Object = Activator.CreateInstance(Type.GetTypeFromProgID("Shell.Application"))
+
+    Sub UnZip()
+
+        'Create directory in which you will unzip your items.
+        'IO.Directory.CreateDirectory(outputFolder)
+
+        'Declare the folder where the items will be extracted.
+        Dim output As Object = shObj.NameSpace((gPath))
+
+        'Declare the input zip file.
+        Dim input As Object = shObj.NameSpace((gPath + "\merc.zip"))
+
+        'Extract the items from the zip file.
+        output.CopyHere((input.Items), 4)
+
+    End Sub
 
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        If File.Exists(gPath + "\m2.exe") Then
+        If File.Exists(gPath + "\merc.zip") Then
 
-            Dim myFile As New FileInfo(gPath + "\m2.exe")
+            Dim myFile As New FileInfo(gPath + "\merc.zip")
             Dim sizeInBytes As Long = myFile.Length
             Me.Text = Format(sizeInBytes / 1000000, "##0.00")
             ProgressBar1.Value = sizeInBytes / 1000000
