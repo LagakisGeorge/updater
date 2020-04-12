@@ -6,7 +6,7 @@ Imports System.IO.Compression
 
 
 
-Imports System.Net.WebClient
+'Imports System.Net.WebClient
 Public Class Form1
     Dim th1 As Threading.Thread
     Dim gPath As String = "c:\mercvb\updates"
