@@ -85,9 +85,9 @@ Public Class Form1
         '  CLIENT.DownloadFile( ftp://62.103.69.140:50001/update.inf", gPath + "\upd.inf")  ftp://62.103.69.140:50001/mercury/update.inf"
 
 
-        CLIENT.DownloadFile(
-            "ftp://192.168.1.100:50001/mercury.zip", gPath + "\mercury.zip")
-        '   "ftp://62.103.69.140:50001/mercury.zip", gPath + "\mercury.zip")
+        CLIENT.DownloadFile("ftp://62.103.69.140:50001/mercury.zip", gPath + "\mercury.zip")
+        '  "ftp://192.168.1.100:50001/mercury.zip", gPath + "\mercury.zip")
+
         ' MsgBox("ολοκληρώθηκε")
         ' th1.Abort()
         UnZip()
@@ -137,9 +137,9 @@ Public Class Form1
             Dim CLIENT As WebClient = New WebClient()
             CLIENT.Credentials = New NetworkCredential("mercury", "mercury12345678!!!")
 
-            CLIENT.DownloadFile(
-                 "ftp://192.168.1.100:50001/mercury/update.inf", gPath + "\upd.txt")
-            '  "ftp://62.103.69.140:50001/mercury/update.inf", gPath + "\upd.txt")
+            CLIENT.DownloadFile("ftp://62.103.69.140:50001/mercury/update.inf", gPath + "\upd.txt")
+            '     "ftp://192.168.1.100:50001/mercury/update.inf", gPath + "\upd.txt")
+
 
 
             '   .CLIENT.DownloadFile(

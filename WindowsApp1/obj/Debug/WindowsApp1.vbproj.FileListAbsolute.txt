@@ -35,3 +35,28 @@ F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.IO.xml
 F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Text.Encoding.xml
 F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\bin\Debug\System.Threading.Tasks.xml
 F:\adoprog2\_working\ftp updater\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+C:\projects\updater\updater\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+C:\projects\updater\updater\WindowsApp1\bin\Debug\WindowsApp1.exe
+C:\projects\updater\updater\WindowsApp1\bin\Debug\WindowsApp1.pdb
+C:\projects\updater\updater\WindowsApp1\bin\Debug\WindowsApp1.xml
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.IO.Compression.dll
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.IO.Compression.FileSystem.dll
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.Runtime.dll
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.IO.dll
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.Text.Encoding.dll
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.Threading.Tasks.dll
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.IO.Compression.xml
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.IO.Compression.FileSystem.xml
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.Runtime.xml
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.IO.xml
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.Text.Encoding.xml
+C:\projects\updater\updater\WindowsApp1\bin\Debug\System.Threading.Tasks.xml
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.vbprojAssemblyReference.cache
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CopyComplete
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.exe
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.xml
+C:\projects\updater\updater\WindowsApp1\obj\Debug\WindowsApp1.pdb
