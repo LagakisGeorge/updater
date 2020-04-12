@@ -55,10 +55,18 @@ Public Class Form1
             File.Copy(gPath + "\upd.txt", gPath + "\updw.txt")
         End If
 
-        'σβηνει το παλιό zip για να έρθει το νέο
-        If File.Exists(gPath + "\mercury.zip") Then
-            File.Delete(gPath + "\mercury.zip")
-        End If
+
+        Try
+
+            'σβηνει το παλιό zip για να έρθει το νέο
+            If File.Exists(gPath + "\mercury.zip") Then
+                File.Delete(gPath + "\mercury.zip")
+            End If
+
+        Catch ex As Exception
+
+        End Try
+
 
 
 
@@ -86,7 +94,11 @@ Public Class Form1
 
 
         CLIENT.DownloadFile("ftp://62.103.69.140:50001/mercury.zip", gPath + "\mercury.zip")
-        '  "ftp://192.168.1.100:50001/mercury.zip", gPath + "\mercury.zip")
+
+
+
+
+        '"ftp://192.168.1.100:50001/mercury.zip gPath + "\mercury.zip")
 
         ' MsgBox("ολοκληρώθηκε")
         ' th1.Abort()
@@ -123,6 +135,8 @@ Public Class Form1
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.CenterToScreen()
+
         ProgressBar1.Value = 0
         Try
             File.Delete(gPath + "\upd.txt")
